@@ -1,0 +1,41 @@
+DIFFERENCE BETWEEN GET, POST, SESSION & COOKIE
+
+================================================================================
+
+GET METHOD:
+- Where Data Lives: URL (query string)
+- Visible to User? Yes (in address bar)
+- User Can Modify? Yes (easily)
+- Persistence: Single request only
+
+================================================================================
+
+POST METHOD:
+- Where Data Lives: Request body (hidden)
+- Visible to User? No (not in URL)
+- User Can Modify? Possible (using browser developer tools)
+- Persistence: Single request only
+
+================================================================================
+
+SESSION:
+- Where Data Lives: Server-side
+- Visible to User? No
+- User Can Modify? No
+- Persistence: Until browser closes or session timeout
+
+================================================================================
+
+COOKIE:
+- Where Data Lives: Browser storage
+- Visible to User? Yes (via browser developer tools)
+- User Can Modify? Yes (easily)
+- Persistence: Set duration (days, months, or years)
+
+================================================================================
+
+SUMMARY:
+- GET: Data in URL, visible, bookmarkable, single request
+- POST: Data hidden in request body, not bookmarkable, single request  
+- SESSION: Data on server, secure, temporary, lasts until browser closes
+- COOKIE: Data on client, can be persistent for days/years
